@@ -140,7 +140,7 @@ loginButton.addEventListener("click", (event) => {
     }
 
     if (fnFlag && lnFlag && eFlag && pwdFlag) {
-        fnFlag = false;
+        fnFlag =lnFlag=eflag=pwdflag= false;
         console.log({ firstName, lastName, email, password });
         firstName = lastName = email = password = "";
         fnTarget.value = lnTarget.value = emailTarget.value = pwdTarget.value = "";
